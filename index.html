@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Syamzy Store | MLBB Top Up</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f4f6ff;
+}
+.header{
+  background:linear-gradient(90deg,#5b6cff,#8b5cff);
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+.header h1{
+  margin:0;
+}
+.container{
+  padding:15px;
+}
+.card{
+  background:white;
+  border-radius:12px;
+  padding:15px;
+  margin-bottom:12px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.card h3{
+  margin:0;
+}
+.price{
+  color:#ff3d71;
+  font-weight:bold;
+  font-size:18px;
+}
+.btn{
+  margin-top:10px;
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  background:#25D366;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+}
+.form{
+  background:white;
+  padding:15px;
+  border-radius:12px;
+  margin-bottom:15px;
+}
+input{
+  width:100%;
+  padding:10px;
+  margin:6px 0;
+  border-radius:6px;
+  border:1px solid #ddd;
+}
+.footer{
+  text-align:center;
+  font-size:12px;
+  color:gray;
+  margin:15px 0;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Syamzy Store</h1>
+  <p>Top Up Mobile Legends Terpercaya</p>
+  <p>📞 60143718141</p>
+</div>
+
+<div class="container">
+
+<div class="form">
+  <h3>Masukkan User ID</h3>
+  <input type="text" id="userid" placeholder="Contoh: Boboikep">
+</div>
+
+<h3>MLBB Diamonds</h3>
+
+<div class="card">
+  <h3>55 Diamonds</h3>
+  <p class="price">RM4.20</p>
+  <button class="btn" onclick="order('55 Diamonds','RM4.20')">Order via WhatsApp</button>
+</div>
+
+<div class="card">
+  <h3>172 Diamonds</h3>
+  <p class="price">RM12.80</p>
+  <button class="btn" onclick="order('172 Diamonds','RM12.80')">Order via WhatsApp</button>
+</div>
+
+<div class="card">
+  <h3>344 Diamonds</h3>
+  <p class="price">RM26.00</p>
+  <button class="btn" onclick="order('344 Diamonds','RM26.00')">Order via WhatsApp</button>
+</div>
+
+<div class="card">
+  <h3>514 Diamonds</h3>
+  <p class="price">RM39.50</p>
+  <button class="btn" onclick="order('514 Diamonds','RM39.50')">Order via WhatsApp</button>
+</div>
+
+<div class="card">
+  <h3>716 Diamonds</h3>
+  <p class="price">RM52.90</p>
+  <button class="btn" onclick="order('716 Diamonds','RM52.90')">Order via WhatsApp</button>
+</div>
+
+<div class="footer">
+© 2026 Zylzz Store
+</div>
+
+</div>
+
+<script>
+function order(diamond, harga){
+  let user = document.getElementById("userid").value;
+  if(user==""){
+    alert("Sila isi User ID dulu!");
+    return;
+  }
+
+  let nombor = "60143718141";
+
+  let mesej =
+`Halo Syamz Store nak top up Game:%0A%0A
+Game: Mobile Legends%0A
+User ID: ${user}%0A
+Nominal: ${diamond}%0A
+Harga: ${harga}`;
+
+  window.open(`https://wa.me/${nombor}?text=${mesej}`,"_blank");
+}
+</script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Syamzy Store | MLBB Top Up</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f4f6ff;
+}
+.header{
+  background:linear-gradient(90deg,#5b6cff,#8b5cff);
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+.header h1{
+  margin:0;
+}
+.container{
+  padding:15px;
+}
+.card{
+  background:white;
+  border-radius:12px;
+  padding:15px;
+  margin-bottom:12px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.card h3{
+  margin:0;
+}
+.price{
+  color:#ff3d71;
+  font-weight:bold;
+  font-size:18px;
+}
+.btn{
+  margin-top:10px;
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  background:#25D366;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+}
+.form{
+  background:white;
+  padding:15px;
+  border-radius:12px;
+  margin-bottom:15px;
+}
+input{
+  width:100%;
+  padding:10px;
+  margin:6px 0;
+  border-radius:6px;
+  border:1px solid #ddd;
+}
+.footer{
+  text-align:center;
+  font-size:12px;
+  color:gray;
+  margin:15px 0;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Syamzy Store</h1>
+  <p>Top Up Mobile Legends Terpercaya</p>
+  <p>📞 60143718141</p>
+</div>
+
+<div class="container">
+
+<div class="form">
+  <h3>Masukkan User ID</h3>
+  <input type="text" id="userid" placeholder="Contoh: Boboikep">
+</div>
+
+<h3>MLBB Diamonds</h3>
+
+<div class="card">
+  <h3>55 Diamonds</h3>
+  <p class="price">RM4.20</p>
+  <button class="btn" onclick="order('55 Diamonds','RM4.20')">Order via WhatsApp</button>
+</div>
+
+<div class="card">
+  <h3>172 Diamonds</h3>
+  <p class="price">RM12.80</p>
+  <button class="btn" onclick="order('172 Diamonds','RM12.80')">Order via WhatsApp</button>
+</div>
+
+<div class="card">
+  <h3>344 Diamonds</h3>
+  <p class="price">RM26.00</p>
+  <button class="btn" onclick="order('344 Diamonds','RM26.00')">Order via WhatsApp</button>
+</div>
+
+<div class="card">
+  <h3>514 Diamonds</h3>
+  <p class="price">RM39.50</p>
+  <button class="btn" onclick="order('514 Diamonds','RM39.50')">Order via WhatsApp</button>
+</div>
+
+<div class="card">
+  <h3>716 Diamonds</h3>
+  <p class="price">RM52.90</p>
+  <button class="btn" onclick="order('716 Diamonds','RM52.90')">Order via WhatsApp</button>
+</div>
+
+<div class="footer">
+© 2026 Zylzz Store
+</div>
+
+</div>
+
+<script>
+function order(diamond, harga){
+  let user = document.getElementById("userid").value;
+  if(user==""){
+    alert("Sila isi User ID dulu!");
+    return;
+  }
+
+  let nombor = "60143718141";
+
+  let mesej =
+`Halo Syamz Store nak top up Game:%0A%0A
+Game: Mobile Legends%0A
+User ID: ${user}%0A
+Nominal: ${diamond}%0A
+Harga: ${harga}`;
+
+  window.open(`https://wa.me/${nombor}?text=${mesej}`,"_blank");
+}
+</script>
+
+</body>
+</html>
